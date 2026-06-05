@@ -60,15 +60,14 @@ TEMPLATES = [
 WSGI_APPLICATION = 'something.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'user_login',
         'USER': 'root',
-        'PASSWORD': '123+456Ab',
+        'PASSWORD': 'shelby12345',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
